@@ -1,1 +1,17 @@
-<h1>New subtraction</h1>
+<h1>Subtraction</h1>
+
+<form action="/wizard_subtract" method="POST">
+  <label for="form_first_number">
+    Subtract this:
+  </label>
+  <input id="form_first_number" name="first_number" type="text" required>
+
+  <label for="form_second_number">
+    from this:
+  </label>
+  <input id="form_second_number" name="second_number" type="text" required>
+
+  <button type="submit">
+    Subtract!
+  </button>
+</form>
