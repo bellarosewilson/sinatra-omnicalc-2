@@ -7,7 +7,6 @@ get("/") do
   redirect("/add")
 end
 
-# Addition Routes
 get("/add") do
   erb(:add_form)
 end
@@ -19,7 +18,6 @@ post("/wizard_add") do
   erb(:add_result)
 end
 
-# Subtraction Routes
 get("/subtract") do
   erb(:sub_form)
 end
@@ -31,7 +29,6 @@ post("/wizard_subtract") do
   erb(:sub_result)
 end
 
-# Multiplication Routes
 get("/multiply") do
   erb(:multiplication_form)
 end
@@ -43,7 +40,6 @@ post("/wizard_multiply") do
   erb(:mult_result)
 end
 
-# Division Routes
 get("/divide") do
   erb(:div_form)
 end
